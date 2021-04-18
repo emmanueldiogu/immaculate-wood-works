@@ -24,7 +24,7 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  background: #303030;
+  background: #f5f0e1;
   color: #8f8f8f;
   font-size: 0.875rem;
   font-weight: 300;
@@ -138,7 +138,7 @@ button {
   font-family: 'Oswald', sans-serif;
   font-weight: 300;
   font-size: 2.625rem;
-  color: #fff;
+  color: #000000;
   margin-bottom: 1.5rem;
 }
 
@@ -316,7 +316,7 @@ button {
   right: -29%;
   top: 0px;
   height: 100%;
-  background: #303030;
+  background: #f5f0e1;
   width: 100%;
   max-width: 29%;
   text-align: center;
@@ -426,7 +426,7 @@ button {
 .side_menu .menu_right li a {
   font-size: 18px;
   font-weight: bold;
-  color: #fff;
+  color: #000000;
   text-transform: capitalize;
 }
 
@@ -530,12 +530,12 @@ button {
 }
 
 .btn {
-  border: 2px solid #fff;
+  border: 2px solid #000000;
   border-radius: 0;
   text-transform: uppercase;
   font-size: 0.75rem;
   font-weight: 500;
-  color: #fff;
+  color: #000000;
   padding: .5rem 1.6rem;
   position: relative;
   background: transparent;
@@ -550,7 +550,7 @@ button {
   right: -1.25rem;
   min-width: 1.25rem;
   height: 2px;
-  background: #fff;
+  background: #000000;
 }
 
 .btn--leftBorder:before {
@@ -562,13 +562,13 @@ button {
   left: -1.25rem;
   min-width: 1.25rem;
   height: 2px;
-  background: #fff;
+  background: #000000;
 }
 
 .btn:hover {
   background: #990000;
   border-color: #990000;
-  color: #262533;
+  color: #fff;
 }
 
 .btn:hover.btn--rightBorder:after {
@@ -582,7 +582,7 @@ button {
 .btn.active {
   background: #990000;
   border-color: #990000;
-  color: #262533;
+  color: #fff;
 }
 
 .btn.active.btn--rightBorder:after {
@@ -596,7 +596,7 @@ button {
 .btn-dark {
   background: #262533;
   border-color: #262533;
-  color: #990000;
+  color: #fff;
   padding: .7rem 1.4rem;
 }
 
@@ -656,7 +656,7 @@ button {
 
 .overview__single {
   padding: 20px 30px;
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.5);
   transition: all .4s;
 }
 
@@ -672,7 +672,7 @@ button {
 
 .overview__single .media-body h3 {
   font-size: 32px;
-  color: #fff;
+  color: #000000;
   font-weight: 500;
   margin-bottom: .2rem;
 }
@@ -683,16 +683,16 @@ button {
 
 .overview__single:hover {
   background: #990000;
-  color: #262533;
+  color: #fff;
 }
 
 .overview__single:hover h3 {
-  color: #262533;
+  color: #fff;
 }
 
 .overview__single:hover .overview__single__icon i,
 .overview__single:hover .overview__single__icon span {
-  color: #262533;
+  color: #fff;
 }
 
 .tips-bg {
@@ -808,7 +808,7 @@ button {
 }
 
 .hero__slide img {
-  width: 100%;
+  width: 100% !important;
   max-height: 500px;
 }
 
@@ -849,7 +849,7 @@ button {
   top: 0;
   left: 0;
   clip-path: polygon(58% 0, 65% 6%, 94% 6%, 94% 38%, 100% 43%, 100% 100%, 0 100%, 0 0);
-  background: #262533;
+  background: #fff;
   z-index: -1;
 }
 
@@ -859,7 +859,7 @@ button {
   position: absolute;
   width: 100%;
   height: 100%;
-  background-color: #262533;
+  background-color: #fff;
   clip-path: polygon(58% 0, 65% 6%, 94% 6%, 94% 38%, 100% 43%, 100% 0);
   left: -35px;
   bottom: -28px;
@@ -882,7 +882,7 @@ button {
 
 .hero__slideContent h1 {
   font-size: 2rem;
-  color: #fff;
+  color: #000000;
   font-weight: 300;
   margin-bottom: 20px;
 }
@@ -939,13 +939,17 @@ button {
 
 .owl-theme .owl-dots .owl-dot.active span {
   height: 4px;
-  background: #f9cc41;
+  background: #990000;
   border-radius: 3px;
-  box-shadow: 0px 1px 0px #f9cc41;
+  box-shadow: 0px 1px 0px #990000;
 }
 
 .testimonialCarousel .owl-dots .owl-dot span {
   box-shadow: inset 0px 3px 0px 0px #262533;
+}
+
+.owl-carousel .owl-item img {
+  width: 100% !important;
 }
 
 .contact-info__icon {

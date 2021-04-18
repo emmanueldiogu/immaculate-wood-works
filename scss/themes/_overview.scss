@@ -1,7 +1,7 @@
 .overview {
 	&__single {
 		padding: 20px 30px;
-		background: rgba(255, 255, 255, .10);
+		background: rgba(255, 255, 255, .50);
 		transition: all .4s;
 
 		&__icon {
@@ -17,7 +17,7 @@
 		.media-body {
 			h3 {
 				font-size: 32px;
-				color: $white;
+				color: $black;
 				font-weight: 500;
 				margin-bottom: .2rem;
 			}
@@ -29,16 +29,16 @@
 
 		&:hover {
 			background: $primary-color;
-			color: $charade;
+			color: $white;
 
 			h3 {
-				color: $charade;
+				color: $white;
 			}
 
 			.overview__single__icon {
 				i,
 				span {
-					color: $charade;
+					color: $white;
 				}
 			}
 		}
