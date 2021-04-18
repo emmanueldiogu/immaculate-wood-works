@@ -5,18 +5,18 @@
 
 		.section-intro__subtitle {
 			margin-bottom: 20px;
-			color: $charade;
+			color: $white;
 		}
 
 		p {
 			margin-bottom: 0;
-			color: $charade;
+			color: $white;
 		}
 	}
 	.btn {
 		&:hover {
 			background: transparent;
-			color: $charade;
+			color: $white;
 		}
 	}
 }
