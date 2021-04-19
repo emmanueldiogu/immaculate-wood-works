@@ -167,6 +167,7 @@ button {
 ============================================================================================ */
 .open .side_menu {
   right: 0px;
+  z-index: 8;
 }
 
 .open .canvus_menu .toggle_icon span {
