@@ -492,7 +492,7 @@ button {
 }
 
 .hero-banner.project-bg {
-  background: url("../img/project-bg.png") left center no-repeat;
+  background: url("../img/bg-4.jpg") left center no-repeat;
   background-size: cover;
 }
 
@@ -505,7 +505,17 @@ button {
   color: #fff;
 }
 
-@media (min-width: 1200px) {
+.hero__contentLeft h1 .smaller {
+  font-size: 1rem !important;
+  display: block;
+  line-height: 1.5;
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+  color: #b3b3b3;
+  margin-bottom: 2rem;
+}
+
+@media (min-width: 600px) {
   .hero__contentLeft {
     top: 50%;
     left: 50%;
@@ -515,13 +525,13 @@ button {
   .hero__contentLeft h1 {
     font-size: 4.5rem;
   }
-  .hero__contentLeft p {
-    font-size: 1.5rem;
+  .hero__contentLeft h1 .smaller {
+    font-size: 1.5rem !important;
   }
 }
 
 .hero__overlay {
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 18, 153, 0.5);
   position: absolute;
   left: 0;
   right: 0;
@@ -565,6 +575,15 @@ button {
 
 .breadcrumb .btn:not(:first-child) {
   padding-left: 0;
+}
+
+.breadcrumb a {
+  color: #fff !important;
+  padding-right: 0 !important;
+}
+
+.breadcrumb a:hover {
+  color: #000000 !important;
 }
 
 .btn {
