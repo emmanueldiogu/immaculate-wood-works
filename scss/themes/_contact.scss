@@ -13,11 +13,15 @@
 		h3 {
 			font-size: 1rem;
 			font-weight: 300;
-			color: $white;
+			color: $black;
 
 			a {
-				color: $white;
+				color: $black;
 			}
 		}
 	}
+}
+
+.social__icons i {
+	font-size: 2rem !important;
 }

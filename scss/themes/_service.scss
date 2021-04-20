@@ -1,7 +1,9 @@
 .service {
+	background-color: #a2d5c6;
+	padding-top:3rem;
 	&__single {
 		padding: 35px 27px;
-		background: rgba(255, 255, 255, .10);
+		background: rgba(255, 255, 255, .7);
 		margin-bottom: 30px;
 
 		&Icon {
@@ -15,7 +17,7 @@
 
 		h3 {
 			font-size: 1.3125rem;
-			color: $white;
+			color: $black;
 			font-weight: 300;
 			margin-bottom: 20px;
 		}

@@ -6,6 +6,10 @@
 		cursor: initial !important;
 	}
 
+	span:hover {
+		color: $black;
+	}
+
 	.btn {
 		background: $primary-color;
 		border-color: $primary-color;
